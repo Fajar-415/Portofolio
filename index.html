@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gambar">Gambar</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About me</h2>
+        <p>Hallo perkenalkan nama saya Muhammad Fajar dan saya sedang berkuliah di Universitas Putera Batam.</p>
+    </section>
+
+    <section id="gambar">
+        <h2>Bebearapa gambar tentang saya</h2>
+        <div class="gambar">
+            <h3>Gambar 1</h3>
+            <p>Ini foto saat saya sedang di UPB nagoya.</p>
+            <img src="IMG_20241004_210701.jpg" width="500">
+        </div>
+        <div class="gambar">
+            <h3>Gambar 2</h3>
+            <p>saya dan teman teman saat P2K di UPB Tembesi.</p>
+            <img src="IMG_20240906_165515.jpg" width="500">
+        </div>
+        <div class="gambar">
+            <h3>Gambar 3 </h3>
+            <p>Ini adalah foto bersama bersama teman teman di hari terakhir P2K.</p>
+            <img src="last day P2K.png" width="500">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>JIka ada yang mau ditanyakan tentang saya boleh saja untuk bertanya</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
